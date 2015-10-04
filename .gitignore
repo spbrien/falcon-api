@@ -8,6 +8,7 @@ venv
 *.db
 *.sql
 *.sqlite
-config/*
-!config/__init__.py
-!config/*.template
+
+application/config/*
+!application/config/__init__.py
+!application/config/*.template
