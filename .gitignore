@@ -1,0 +1,13 @@
+*.pyc
+.DS_Store
+
+node_modules
+vendor
+venv
+
+*.db
+*.sql
+*.sqlite
+config/*
+!config/__init__.py
+!config/*.template
