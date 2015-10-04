@@ -1,5 +1,7 @@
 import falcon
 
+from models import db
+
 
 # Falcon follows the REST architectural style, meaning (among
 # other things) that you think in terms of resources and state
